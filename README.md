@@ -90,18 +90,18 @@ The project workflow consists of the following stages:
 
 ## 📂 Dataset  
 
-- **📌 Dataset Used**: A credit card transactions dataset with **50,000+ records**.  
-- **🔍 Features**: Includes transaction details such as amount, time, merchant, category, and user information.  
-- **🎯 Target Variable**: `is_fraud` (1: Fraud, 0: Not Fraud)  
+- **Dataset Used**: A credit card transactions dataset with **50,000+ records**.  
+- **Features**: Includes transaction details such as amount, time, merchant, category, and user information.  
+- **Target Variable**: `is_fraud` (1: Fraud, 0: Not Fraud)  
 
 ---
 
 ## 🧑‍💻 Preprocessing & Feature Engineering  
 
-- **🛠️ Handling Missing Values**: Replaced or dropped missing values.  
-- **📊 Feature Encoding**: One-hot encoding for categorical variables.  
-- **📏 Feature Scaling**: Standardization using `StandardScaler`.  
-- **⚖️ Class Imbalance Handling**: Applied **SMOTE** to balance fraud cases.  
+- **Handling Missing Values**: Replaced or dropped missing values.  
+- **Feature Encoding**: One-hot encoding for categorical variables.  
+- **Feature Scaling**: Standardization using `StandardScaler`.  
+- **Class Imbalance Handling**: Applied **SMOTE** to balance fraud cases.  
 
 ---
 
@@ -126,10 +126,10 @@ The project workflow consists of the following stages:
 --- 
 
 ## 🔮 Future Enhancements
-🚀 Deploy the best-performing model using Flask or FastAPI for real-time fraud detection.   
-⚡ Implement real-time fraud detection using Apache Kafka & Spark.    
-🎯 Optimize ANN hyperparameters using GridSearchCV or Bayesian Optimization.    
-📊 Expand dataset with real-world banking fraud transactions for better generalization.    
+- Deploy the best-performing model using Flask or FastAPI for real-time fraud detection.   
+- Implement real-time fraud detection using Apache Kafka & Spark.    
+- Optimize ANN hyperparameters using GridSearchCV or Bayesian Optimization.    
+- Expand dataset with real-world banking fraud transactions for better generalization.    
 
 ---
 
